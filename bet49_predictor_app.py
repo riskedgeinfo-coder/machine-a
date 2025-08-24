@@ -46,8 +46,7 @@ if st.button("Predict"):
                             future_results[offset][color] += 1
 
     st.subheader("📊 Prediction Results")
-    st.markdown(f"**Input Draw ID:** {draw_id}  
-**Sum:** {draw_sum}")
+    st.markdown(f"**Input Draw ID:** {draw_id}  \n**Sum:** {draw_sum}")
 
     table_md = (
         "| Draw Ahead | Predicted Color | Confidence (%) | Raw Color Counts |
